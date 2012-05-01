@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for shooteru
 PRODUCT_COPY_FILES += \
+    vendor/htc/shooteru/proprietary/awb_camera:system/bin/awb_camera \
     vendor/htc/shooteru/proprietary/charging:system/bin/charging \
     vendor/htc/shooteru/proprietary/hdmid:system/bin/hdmid \
     vendor/htc/shooteru/proprietary/htc_ebdlogd:system/bin/htc_ebdlogd \
@@ -32,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/logcat2:system/bin/logcat2 \
     vendor/htc/shooteru/proprietary/netmgrd:system/bin/netmgrd \
     vendor/htc/shooteru/proprietary/qmuxd:system/bin/qmuxd \
+    vendor/htc/shooteru/proprietary/mm-abl-daemon:system/bin/mm-abl-daemon \
     vendor/htc/shooteru/proprietary/mpdecision:system/bin/mpdecision \
     vendor/htc/shooteru/proprietary/thermald:system/bin/thermald \
     vendor/htc/shooteru/proprietary/rmt_storage:system/bin/rmt_storage \
@@ -73,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooteru/proprietary/libmmipl.so:system/lib/libmmipl.so \
     vendor/htc/shooteru/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/htc/shooteru/proprietary/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/htc/shooteru/proprietary/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/htc/shooteru/proprietary/libv8.so:system/lib/libv8.so \
     vendor/htc/shooteru/proprietary/camera.default.so:system/lib/hw/camera.default.so \
     vendor/htc/shooteru/proprietary/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
